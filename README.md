@@ -1,4 +1,28 @@
-# Kobra3-Firmware
 
-> [!WARNING]
-> # Warning: use at your own risk. If you install any custom firmware on your printer, it is very possible to damage your printer and you will forfeit your warranty support of some accessories.
+## 一、项目构建方法
+### 1、设置Go代理
+```
+set GOPROXY=https://goproxy.bj.bcebos.com/ 
+set GOPROXY=https://mirrors.aliyun.com/goproxy/
+```
+### 2、工程构建方法
+#### 2.1、32位系统
+```
+make tidy
+make build
+```
+#### 2.2、ARM版本
+```
+make tidy
+make build-arm
+```
+#### 2.3、清除工程
+```
+make clean
+```
+
+## 二、项目架构
+
+## 三、通信协议
+
+## 四、软件框架
