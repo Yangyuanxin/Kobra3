@@ -1,4 +1,4 @@
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Yangyuanxin/Kobra3)
 ## 一、项目构建方法
 ### 1、设置Go代理
 ```
